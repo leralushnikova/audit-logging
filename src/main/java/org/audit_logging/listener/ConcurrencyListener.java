@@ -6,7 +6,7 @@ import org.springframework.context.ApplicationListener;
 /**
  * Класс CustomListener сообщаем о том, что модуль подключился
  */
-public class CustomListener implements ApplicationListener<ApplicationReadyEvent> {
+public class ConcurrencyListener implements ApplicationListener<ApplicationReadyEvent> {
     @Override
     public void onApplicationEvent(ApplicationReadyEvent event) {
         System.out.println("Starter worked!");
