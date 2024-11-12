@@ -7,7 +7,7 @@ import org.aspectj.lang.annotation.AfterReturning;
 import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
 
-/** Класс Аспектов - аудит действий пользователя */
+/** Класс Аспектов - логгирование действий пользователя */
 @Aspect
 @Slf4j
 public class LoggableAspect {
